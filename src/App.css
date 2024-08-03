@@ -80,7 +80,7 @@
   
   /* Section Home */
   .home {
-    position: relative;
+    
     top: 15%;
     color: white;
     width: 100%;
@@ -91,19 +91,12 @@
     margin-bottom: 100px;
   }
   
-  .home-image img {
-      max-width: 550px;
-      float: right;
-      position: absolute;
-      top: 22%;
-      right: 7%;
-    }
+ 
   
   /* home content */
   .home-content {
     max-width: 600px;
-    position: absolute;
-    top: 30%;
+
   }
   
   .home-content h3 {
@@ -193,11 +186,10 @@
   /* About Section */
   
   .about {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
+    display: flex;
+  
     gap: 1.5rem;
-    margin-bottom: 80px;
+    /* margin-bottom: 200px; */
   }
    
   .about-image img {
@@ -208,11 +200,6 @@
     border-radius: 8px;
   }
   
-  .about-text {
-    position: absolute;
-    padding-left: 600px;
-    padding-right: 70px;
-  }
   
   .about-text h2 {
     font-size: 60px;
@@ -331,6 +318,7 @@
   .skills {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 200px;
   }
   
   .container1 {
@@ -453,6 +441,9 @@
   }
   .progress-line.react span::after {
     content: "80%";
+  }
+  .progress-line.nodejs span::after {
+    content: "50%";
   }
   
   .progress-line span::before {
@@ -862,66 +853,12 @@
   }
   
   /* Section Home */
-  .home {
-    position: relative;
-    top: 15%;
-    color: white;
-    width: 100%;
-    justify-content: space-between; 
-    height: 100vh;
-    align-items: center;
-    padding: 0px 10%;
-    margin-bottom: 100px;
-  }
   
-  .home-image img {
-      max-width: 500px;
-      float: right;
-      position: absolute;
-      top: 22%;
-      right: 7%;
-    }
+  
+  
   
   /* home content */
-  .home-content {
-    max-width: 600px;
-    position: absolute;
-    top: 30%;
-  }
-  
-  .home-content h3 {
-    font-size: 28px;
-    font-weight: 600;
-    margin-bottom: 16px;
-    opacity: 0;
-    animation: slideBottom 1s ease forwards;
-    animation-delay: 0.7s;
-  }
-  
-  .home-content h1 {
-    font-size: 48px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    margin: -3px 0;
-    opacity: 0;
-    animation: slideRight 1s ease forwards;
-    animation-delay: 1s;
-  }
-  
-  .home-content #skills {
-    font-size: 20px;
-    opacity: 0;
-    animation: slideLeft 1s ease forwards;
-    animation-delay: 1s;
-  }
-  
-  .home-content #skills:nth-of-type(2) {
-    margin-bottom: 20px;
-    margin-top: 10px;
-  }
-  .home-content #skills span {
-    color: #0ef;
-  }
+
   
   /* links */
   .home-sci a {
@@ -975,55 +912,7 @@
   
   
     /* about-------------------------------------------- */
-    .about {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      align-items: center;
-      gap: 1rem;
-      margin-bottom: 200px;
-      height: 900px;
-    }
-     
-    .about-image img {
-      padding-bottom: 20%;
-      max-width: 370px;
-      height: auto;
-      width: 100%;
-      border-radius: 8px;
-    }
     
-    .about-text {
-      position: absolute;
-      padding-left: 430px;
-      padding-right: 60px;
-      margin-top: 50px;
-    }
-    
-    .about-text h2 {
-      margin-top: 0;
-      font-size: 45px;
-    }
-    
-    .about-text h2 span {
-      color: #0ef;
-    }
-    
-    .about-text h4 {
-      font-size: 24px;
-      font-weight: 600;
-      color: #fff;
-      line-height: 1.3;
-      margin: 21px 0 5px;
-    }
-    
-    .about-text p {
-      color: aliceblue;
-      font-size: 17px;
-      line-height: 1.3;
-      margin-bottom: 1.7rem;
-    }
-  
-  
     /* services-------------------------------------------- */
     /* Section 3 Services */
     #services {
@@ -1393,31 +1282,11 @@
   }
   
     
-  .home {
-    position: relative;
-    top: 15%;
-    color: white;
-    width: 100%;
-    justify-content: space-between; 
-    height: 100vh;
-    align-items: center;
-    padding: 0px 10%;
-    margin-bottom: 170px;
-  }
-  
-  .home-image img {
-      max-width: 360px;
-      float: right;
-      position: absolute;
-      top: 22%;
-      right: 7%;
-    }
-  
+ 
   /* home content */
   .home-content {
     max-width: 600px;
-    position: absolute;
-    top: 30%;
+
   }
     
     .home-content h3 {
@@ -1506,11 +1375,9 @@
   
     /* about ================================================*/
     .about {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      align-items: center;
+      display:flex;
       gap: 1rem;
-      height: 900px;
+      
     }
      
     .about-image img {
@@ -1521,11 +1388,7 @@
       border-radius: 8px;
     }
     
-    .about-text {
-      position: absolute;
-      padding-left: 330px;
-      padding-right: 40px;
-    }
+
     
     .about-text h2 {
       margin-top: 70px;
@@ -1554,7 +1417,7 @@
     /* services-------------------------------------------- */
     /* Section 3 Services */
     .services {
-      margin-top: -300px;
+      margin-top: -200px;
     }
     
     #services {
@@ -2014,31 +1877,11 @@
     }
   
       
-    .home {
-      position: relative;
-      top: 15%;
-      color: white;
-      width: auto;
-      justify-content: space-between; 
-      height: 100vh;
-      align-items: center;
-      padding: 0px 10%;
-      margin-bottom: -200px;
-    }
-  
-    .home-image img {
-        max-width: 350px;
-        position: absolute;
-        left: 25%;
-        top: 450px;
-      }
-  
+    
     /* home content */
     .home-content {
-      position: absolute;
+
       justify-content: center;
-      top: 120px;
-      left: 150px;
     }
     
     .home-content h3 {
@@ -2127,9 +1970,7 @@
   
     /* about ================================================*/
     .about {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      align-items: center;
+      display: flex;
       gap: 1rem;
     }
      
@@ -2137,11 +1978,7 @@
       display: none;
     }
     
-    .about-text {
-      position: absolute;
-      padding-left: 30px;
-      padding-right: 30px;
-    }
+  
   
     .about-me {
       text-align: center;
@@ -2173,7 +2010,7 @@
     /* services-------------------------------------------- */
     /* Section 3 Services */
     .services {
-      margin-top: -150px;
+      margin-top: -50px;
     }
     
     #services {
@@ -2596,10 +2433,10 @@
     .navbar ul {
       position: fixed;
       width: 60%;
-      height: 50vh;
+      height: 100vh;
       background-color: #2c3e50;
       background-size: cover;
-      top: 70px;
+      /* top: 70px; */
       left: -100%;
       text-align: center;
       transition: all  .5s;
@@ -2635,32 +2472,13 @@
   
   
       
-    .home {
-      position: relative;
-      top: 15%;
-      color: white;
-      width: auto;
-      justify-content: space-between; 
-      height: 100vh;
-      align-items: center;
-      padding: 0px 10%;
-      margin-bottom: -100px;
-    }
-  
-    .home-image img {
-        max-width: 250px;
-        position: absolute;
-        margin-left: -20px;
-        padding: 20px;
-        margin-top: 50px;
-      }
+    
   
     /* home content */
     .home-content {
-      position: absolute;
+
       justify-content: center;
-      top: 120px;
-      left: 50px;
+
     }
     
     .home-content h3 {
@@ -2749,9 +2567,7 @@
   
     /* about ================================================*/
     .about {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      align-items: center;
+      display: flex;
       gap: 1rem;
     }
      
@@ -2759,11 +2575,7 @@
       display: none;
     }
     
-    .about-text {
-      position: absolute;
-      padding-left: 30px;
-      padding-right: 30px;
-    }
+ 
   
     .about-me {
       text-align: center;
@@ -3263,32 +3075,13 @@
   
   
       
-    .home {
-      position: relative;
-      top: 15%;
-      color: white;
-      width: auto;
-      justify-content: space-between; 
-      height: 100vh;
-      align-items: center;
-      padding: 0px 10%;
-      margin-bottom: -100px;
-    }
-  
-    .home-image img {
-        max-width: 250px;
-        position: absolute;
-        margin-left: -45px;
-        padding: 20px;
-        margin-top: -95px;
-      }
+    
   
     /* home content */
     .home-content {
-      position: absolute;
+
       justify-content: center;
-      top: 70px;
-      left: 40px;
+
     }
     
     .home-content h3 {
@@ -3377,22 +3170,16 @@
   
     /* about ================================================*/
     .about {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      align-items: center;
+      display: flex;
       gap: 1rem;
-      margin-top: -130px;
+      
     }
      
     .about-image img {
       display: none;
     }
     
-    .about-text {
-      position: absolute;
-      padding-left: 20px;
-      padding-right: 20px;
-    }
+
   
     .about-me {
       text-align: center;
@@ -3917,11 +3704,88 @@
   
 
 
+.menem{
+max-width: 400px;
+/* height: 400px; */
+border-radius: 33%;
+}
+.senem{
+  border-radius: 33%;
+  width: 400px;
+}
 
+.about{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+  width: 100%;
+  margin-bottom: 50px;
+  padding: 60px;
+}
+.about img{
 
+}
+/* .about-text{
+  width: 60%;
+padding-right: 30px;
+} */
 
+.home{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
 
+  @media (max-width: 1100px) {
+    .menem{
+      width: 300px;
+    }
+    .senem{
+      width: 350px;
+    }
+    .about-text p{
+      font-size: 16px;
+    }
+    .about-text h4{
+      font-size: 21px;
+    }
+    
+  }
+  @media (max-width: 700px) {
+    .menem{
+      width: 250px;
+    }
+  }
+  @media (max-width: 570px) {
+    .menem{
+      width: 200px;
+    }
+  }
+  @media (max-width: 470px) {
+    .home{
+      flex-direction: column;
+      margin-top: 100px;
 
-
-
- 
+    }
+    .home h3{
+      width: 200px;
+      font-size: 16px;
+    }
+    .home-content{
+      /* width: 400px; */
+      margin-left: 25%;
+    }
+    .home-image{
+      margin-bottom: 60px;;
+    }
+    .senem{
+      width: 200px;
+    }
+  }
+  @media (max-width: 830px) {
+    .about{
+      flex-direction: column-reverse;
+    }
+  }
