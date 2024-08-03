@@ -316,16 +316,16 @@
   /* =================================================================*/
   /* Skills Section */
   .skills {
-    display: flex;
-    flex-wrap: wrap;
+   margin-left: 10%;
+ 
     margin-bottom: 200px;
   }
   
   .container1 {
     width: 590px;
-    height: 500px;
-    padding: 75px 90px;
-    margin-left: 120px;
+    
+    /* padding: 75px 90px; */
+    margin: 0 auto;
   }
   
   .heading1 {
