@@ -130,7 +130,7 @@ const App = () => {
             </h3>
             <div className="home-sci">
               <a
-                href="https://www.linkedin.com/in/yusif-b%C9%99d%C9%99l-1b7767308/"
+                href="https://www.linkedin.com/in/yusif-badal-1b7767308/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -414,7 +414,7 @@ const App = () => {
             </div>
             <div className="contact-icons">
               <a
-                href="https://www.linkedin.com/in/yusif-b%C9%99d%C9%99l-1b7767308/"
+                href="https://www.linkedin.com/in/yusif-badal-1b7767308/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
